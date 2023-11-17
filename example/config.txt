@@ -1,0 +1,2 @@
+Prefix plugins/ScanResistant/example/
+Plugin ScanResistant inputfile parameters.txt outputfile output.pdf
