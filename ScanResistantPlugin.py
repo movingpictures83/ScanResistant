@@ -99,7 +99,8 @@ class ScanResistantPlugin:
     if index == 2:
         ax.set_ylabel("")
 
-
+  outf = open(outputfile+".txt", 'w')
+  outf.write(str(traces))
   plt.savefig(outputfile, bbox_inches = 'tight', dpi=600)
   plt.show()   
 
